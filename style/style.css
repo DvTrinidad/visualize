@@ -1,0 +1,59 @@
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+header {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 3vw;
+}
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  width: 40%;
+}
+.nav-links {
+  display: flex;
+  align-items: flex-start;
+  list-style-type: none;
+  margin: 0 2vw;
+}
+.nav-links li {
+  margin: 0 2vw;
+}
+.logo {
+  display: flex;
+  align-items: flex-start;
+  width: 60%;
+  font-weight: bold;
+}
+
+main,
+section {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+}
+.side-text {
+  width: 50%;
+  font-size: 1rem;
+  display: flex;
+  align-items: flex-start;
+  font-family: "helvetica neue", helvetica;
+}
+#title {
+  font-size: 4rem;
+}
+
+.side-img {
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.side-img img {
+  width: 80%;
+  height: 100%;
+}
